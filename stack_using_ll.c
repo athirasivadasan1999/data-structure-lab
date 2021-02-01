@@ -52,7 +52,7 @@ void pop()
 		while(temp->next->next != NULL)
 		{
 		temp=temp->next;
-	    }
+	    	}
 	temp->next=NULL;
 	}
 }
@@ -74,7 +74,7 @@ void peek()
 		count++;
 	}
 	printf("Stack [%d] : %d\n",count,temp->data);
-    }        
+    	}        
 }
 
 
@@ -95,7 +95,7 @@ void display()
 		count++;
 	}
 	printf("List [%d] : %d\n",count,temp->data);
-    }
+    	}
 }
 
 int main()
