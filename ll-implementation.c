@@ -90,8 +90,8 @@ void insert_pos()
 	}
 	else if(pos == 1)
 	{
-			pre->next=head;
-			head=pre;
+		pre->next=head;
+		head=pre;
 	}
 	else
 	{
@@ -108,7 +108,7 @@ void insert_pos()
 			temp=temp->next;
 			count++;
 		}
-	    }
+	    	}
 	}
 }
 
@@ -131,7 +131,7 @@ void display()
 		count++;
 	}
 	printf("List [%d] : %d\n",count,temp->data);
-    }
+    	}
 }
 
 //*************************search******************************
@@ -172,7 +172,7 @@ void search()
 	else{
 		printf("\nnot found\n");
 	}
-}
+	}
 }
 
 int main()
